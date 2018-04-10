@@ -1,20 +1,35 @@
+
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
+<html lang="ru">
+{% include head.html %}
+<body>
+ <div class="wrapper">
+    <!-- Navigation -->
     {% include header.html %}
+    {% include hero.html %}
+    <!--Блок Флип-->
+    {{content}}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <!-- Info Section -->
+    {% include info.html %}
+    
+    
+    
+     
+    
+    
+     
+        
+    
+    
+    
 
+    
+
+    <!-- Footer -->
     {% include footer.html %}
-
-  </body>
-
+     </div>
+     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="jquery.fancybox.min.js"></script> 
+</body>
 </html>

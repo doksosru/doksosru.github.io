@@ -1,27 +1,58 @@
-<header class="site-header">
+<header>
+<nav class="level">
+  <p class="level-item has-text-centered">
+    <a class="link is-info" href="index.html">Главная</a>
+  </p>
+  
+  <p class="level-item has-text-centered">
+    <img src="assets/img/logo.png" alt="" style="height: 30px;">
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info" href="index.html">Здоровье</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Еда</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info" href="index-ev.html">Если у вас:</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Библиотечка</a>
+  </p>
+  <p class="level-item has-text-centered">
+    <a class="link is-info">Блог</a>
+  </p>
+</nav>
+    <!-- Top Container -->
+    <section class="top-container">
+      <header class="showcase">
+       <h1>DokSoS</h1>
+        <h1>Осилит дорогу - идущий!</h1>
+        <p>Здоровье ещё не всё, но всё без него - НИЧТО! </p>
+        
+      </header>
+      
+       <div class="column">
+        <div class="container is flip">
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+  <div class="flipper">
+    <div class="front">
+      <img src="assets/img/zdorov.jpeg" alt="Здоровье, это просто"><p>Об чем пойдет речь?</p>
       </div>
-    </nav>
+    <div class="back">
+     <a href="main.html">SOS - помощь</a><br>
+      <a href="">Альтернатива прививкам</a><br>
+      <a href="">Для беременных</a><br>
+      <a href="">Лечение собственных детей - это просто</a><br>
+      
+      <a href="lechebnik_ostrich_bolesney.html">Лечебник острых заболеваний</a><br>
+      <a href="lechmenu/lechebnik.html">Мобильная версия лечебника</a>
+      
+      </div>
+      
+      </div>
+    </div>
+</div> 
 
-  </div>
-
+    </section> 
 </header>
